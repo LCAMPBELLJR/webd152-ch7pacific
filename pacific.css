@@ -1,11 +1,9 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-
-
 body {
-  background-color: #EAEAEA; /*EAEAEA */
+  background-color: #eaeaea; /*EAEAEA */
   color: #555; /* c#fff */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ffa */
 }
@@ -27,7 +25,7 @@ header {
   background-repeat: no-repeat; /* bgr */
   background-size: contain;
   color: #fff; /* c#fff */
-  height: 120Px; /* h120 */
+  height: 120px; /* h120 */
   padding-top: 30px; /* pt30 */
   text-align: center; /* tac */
 }
@@ -35,10 +33,10 @@ header a {
   text-decoration: none; /* txn */
 }
 header a:link {
-  color: #fff /* c#fff */*
+  color: #fff /* c#fff */ *;
 }
 header a:visited {
-  color:#fff;
+  color: #fff;
 }
 header a:hover {
   color: #90c7e3;
@@ -49,16 +47,15 @@ nav {
   font-weight: bold; /* fwb */
   padding: 1.5em;
   width: 160px; /* w160 */
-  
 }
 
-nav ul{
+nav ul {
   font-size: 1.2em; /* fz1.2em */
- list-style-type: none; /* lstnone */
- margin: 0; /* m0 */
- padding-left: 0; /*pl0 */
+  list-style-type: none; /* lstnone */
+  margin: 0; /* m0 */
+  padding-left: 0; /*pl0 */
 }
- nav a {
+nav a {
   text-decoration: none; /* txd */
 }
 nav a:link {
@@ -68,7 +65,7 @@ nav a:visited {
   color: #344873; /* c#344873 */
 }
 nav a:hover {
-  color: #a52a2a; 
+  color: #a52a2a;
 }
 
 main {
@@ -82,7 +79,7 @@ section {
   float: left; /*fl */
   padding-left: 2em; /* pl2em */
   padding-right: 2em; /* pr2em */
-  width: 33%
+  width: 33%;
 }
 h1 {
   font-size: 3em; /* fz3em */
